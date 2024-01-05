@@ -1,0 +1,20 @@
+:root {
+    --color-dark: #00144a;
+    --color-light: #4065c5;
+    --color-default: #0031b2;
+    --color-secondary: #f28080;
+}
+/**
+ Colors
+ */
+.color-dark {color: var(--color-dark) !important}
+.color-light {color: var(--color-light) !important}
+.color-default {color: var(--color-default) !important}
+.color-secondary {color: var(--color-secondary) !important}
+/**
+ Backgrounds
+ */
+.bg-color-dark {background-color: var(--color-dark) !important}
+.bg-color-light {background-color: var(--color-light) !important}
+.bg-color-default {background-color: var(--color-default) !important}
+.bg-color-secondary {background-color: var(--color-secondary) !important}

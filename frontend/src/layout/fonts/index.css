@@ -1,0 +1,13 @@
+@font-face {
+    font-family: SulSans-Regular;
+    src: url(assets/fonts/SulSans-Medium.otf);
+}
+
+::selection {
+    color: white;
+    background: var(--color-secondary);
+}
+
+#root {
+    font-family: SulSans-Regular, Arial, Helvetica, sans-serif;
+}

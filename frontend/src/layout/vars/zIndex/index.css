@@ -1,0 +1,21 @@
+:root {
+    --zindex-fixed: 1030;
+    --zindex-modal: 1060;
+    --zindex-sticky: 1020;
+    --zindex-popover: 1070;
+    --zindex-tooltip: 1080;
+    --zindex-dropdown: 1000;
+    --zindex-offcanvas: 1050;
+    --zindex-modal-backdrop: 1040;
+}
+/**
+
+ */
+.z-index-fixed {z-index: var(--zindex-fixed) !important}
+.z-index-modal {z-index: var(--zindex-modal) !important}
+.z-index-sticky {z-index: var(--zindex-sticky) !important}
+.z-index-popover {z-index: var(--zindex-popover) !important}
+.z-index-tooltip {z-index: var(--zindex-tooltip) !important}
+.z-index-dropdown {z-index: var(--zindex-dropdown) !important}
+.z-index-offcanvas {z-index: var(--zindex-offcanvas) !important}
+.z-index-modal-backdrop {z-index: var(--zindex-modal-backdrop) !important}
